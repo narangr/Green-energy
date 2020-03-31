@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Green-Energy</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="mast">
+            <h1>GREEN ENERGY</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="buttons">
+            <button>Solar Energy</button>
+            <button>Biomass Energy</button>
+            <button>Hydroelectric Energy</button>
+        </div>
+
+    
+        <div id="maincontent"></div>
+        
+        <footer>
+            <div class="social">
+                <a href="https://www.facebook.com"><img src="./images/facebook.png" alt="facebook"></a>
+                <a href="https://www.twitter.com"><img src="./images/twitter.png" alt="twitter"></a>
+                <a href="https://www.youtube.com"><img src="./images/youtube.png" alt="youtube"></a>
+            </div>
+
+        </footer>
+
+        <script src="./js/index.js"></script>
+    </div>
+    <script>
+        $('.handle').on('click', function() {
+            $('nav ul').toggleClass('showing')
+        });
+    </script>
+</body>
+
+</html>
